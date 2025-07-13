@@ -34,6 +34,18 @@ body{
     margin: 0px 30px 3px;
 }
 
+.hp-group{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.fire-logo{
+    width: 25px;
+    height: 25px;
+}
+
 .pokemon-name{
    
 }
@@ -42,7 +54,7 @@ body{
     color: #d11111;
 }
 
-img{
+#img{
     display: block;
     margin: 0px auto;
     width: 320px;
@@ -55,7 +67,7 @@ img{
     background: linear-gradient(to right, #bda21c, #edcc26, #bda21c);
     height: 15px;
     width: 300px;
-    margin: 10px auto;
+    margin: 10px auto 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,3 +79,105 @@ img{
     font-style: italic;
 }
 
+.attack1{
+    width: 300px;
+    margin: 0 auto;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.attack2{
+    width: 300px;
+    margin: 0 auto;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 8px;
+}
+
+.normal-logo{
+    height: 20px;
+    width: 20px;
+}
+
+#scratch{
+    margin: 0 auto;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.damage{
+    position: relative;
+    right: 10px;
+    font-size: 25px;
+}
+
+#normal2{
+    margin: 0 0 0 -5px;
+}
+
+#fire-mini{
+
+    height: 12px;
+    width: 12px;
+}
+.lines{
+    width: 350px;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 30px auto;
+}
+
+#description-atk2{
+    font-size: 16px;
+}
+
+.weaknesses{
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin: -26px auto 0;
+}
+
+#invisible{
+    display: none;
+}
+
+.weaknesses-img{
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 316px;
+    margin: 0 auto;
+}
+
+#fun-fact{
+    width: 320px;
+    height: 30px;
+    border:#edcc26 solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 0;
+}
+
+#fun-fact-text{
+    font-size: 12px;
+    font-weight: 650;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}

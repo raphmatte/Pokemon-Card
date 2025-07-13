@@ -6,21 +6,71 @@
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
+
         <!--Fond de carte-->
         <div class="card">
+
             <!--Header-->
           <p class="basic-pokemon">Basic Pokemon</p>
           <div class="header-card">
               <span class="pokemon-name">Charmander</span>
-              <span class="pokemon-hp">50 HP</span>
-          </div>
+              <span class="hp-group">
+                <span class="pokemon-hp">50 HP</span>
+                <img class="fire-logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w437-315a34c4-85c2-4d07-ae4d-6b42a25233bf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzQzNy0zMTVhMzRjNC04NWMyLTRkMDctYWU0ZC02YjQyYTI1MjMzYmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kytndezX-kNW72WN893L_sOKoTnQYmvnqvJ79VVV8w8" alt="fire-logo">
+              </span>
+            </div>
+
           <!--Image-->
-        <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/03/pokemon-charmander-change_1400x700.jpg" alt="Charmander">
-          <!--Pokemon Specs-->
+        <img id="img" src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/03/pokemon-charmander-change_1400x700.jpg" alt="Charmander">
+          
+        <!--Pokemon Specs-->
           <div id="specs-box">
             <span class="specs">Lizard Pokemon. Length: 2'0", Weight: 19lbs.</span>
-
           </div>
+
+          <!--Attack 1-->
+          <div class="attack1">
+            <img class="normal-logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w4gu-bcf44127-7bc3-468d-b148-1af8cf4e7ac0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzRndS1iY2Y0NDEyNy03YmMzLTQ2OGQtYjE0OC0xYWY4Y2Y0ZTdhYzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-vmnJpKCstvGfBGAZSDdWifzyck5L1V3jv6c3VZAB-4" alt="normal-logo">
+            <span id="scratch">Scratch</span>
+            <span class="damage">10</span>
+          </div>
+
+          <hr class="lines">
+
+          <!--Attack 2-->
+          <div class="attack2">
+            <img class="normal-logo" alt="fire-logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w437-315a34c4-85c2-4d07-ae4d-6b42a25233bf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzQzNy0zMTVhMzRjNC04NWMyLTRkMDctYWU0ZC02YjQyYTI1MjMzYmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kytndezX-kNW72WN893L_sOKoTnQYmvnqvJ79VVV8w8">
+            <img id="normal2" class="normal-logo" alt="normal-logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w4gu-bcf44127-7bc3-468d-b148-1af8cf4e7ac0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzRndS1iY2Y0NDEyNy03YmMzLTQ2OGQtYjE0OC0xYWY4Y2Y0ZTdhYzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-vmnJpKCstvGfBGAZSDdWifzyck5L1V3jv6c3VZAB-4">
+            <span id="description-atk2">
+              <b>Ember</b> Discard 1
+              <img id="fire-mini" alt="fire-logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w437-315a34c4-85c2-4d07-ae4d-6b42a25233bf.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzQzNy0zMTVhMzRjNC04NWMyLTRkMDctYWU0ZC02YjQyYTI1MjMzYmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kytndezX-kNW72WN893L_sOKoTnQYmvnqvJ79VVV8w8">
+              Energy card attached to Charmander in order to use this attack.
+            </span>
+            <span class="damage">30</span>
+          </div>
+
+          <hr class="lines">
+
+          <!--Weaknesses-->
+          <div class="weaknesses">
+            <span>weakness</span>
+            <span>resistance</span>
+            <span>retreat cost</span>
+          </div>
+
+          <div class="weaknesses-img">
+            <img class="normal-logo" alt="water-logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w3fi-85063943-452c-4b80-8db1-5cf8ff52df52.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzNmaS04NTA2Mzk0My00NTJjLTRiODAtOGRiMS01Y2Y4ZmY1MmRmNTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.voroYLPZMwgOCJjmkVuK6GepgSaDWAjj25Ptq5CuGJg">
+            <img id="invisible" class="normal-logo" alt="water-logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w3fi-85063943-452c-4b80-8db1-5cf8ff52df52.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzNmaS04NTA2Mzk0My00NTJjLTRiODAtOGRiMS01Y2Y4ZmY1MmRmNTIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.voroYLPZMwgOCJjmkVuK6GepgSaDWAjj25Ptq5CuGJg">
+            <img class="normal-logo" alt="normal-logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aba1a756-d955-43f6-a2e9-5b7d60406854/d50w4gu-bcf44127-7bc3-468d-b148-1af8cf4e7ac0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FiYTFhNzU2LWQ5NTUtNDNmNi1hMmU5LTViN2Q2MDQwNjg1NFwvZDUwdzRndS1iY2Y0NDEyNy03YmMzLTQ2OGQtYjE0OC0xYWY4Y2Y0ZTdhYzAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-vmnJpKCstvGfBGAZSDdWifzyck5L1V3jv6c3VZAB-4">
+          </div>
+
+          <!--Fun Fact-->
+          <div id="fun-fact">
+            <span id="fun-fact-text">Obviously prefers hot places. If it gets caught in the rain, steam is said to spout from the tip of its tail.</span>
+          </div>
+
+          
+
         </div>
     </body>
 </html>
